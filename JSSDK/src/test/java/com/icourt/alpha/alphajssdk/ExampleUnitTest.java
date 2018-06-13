@@ -1,4 +1,4 @@
-package com.icourt.alpha.alphajssdkdemo;
+package com.icourt.alpha.alphajssdk;
 
 import org.junit.Test;
 

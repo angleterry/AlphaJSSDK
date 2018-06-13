@@ -1,5 +1,6 @@
-package com.icourt.alpha.alphajssdk;
+package com.icourt.alpha.alphajssdkdemo;
 
+import com.icourt.alpha.alphajssdk.IJavaCallback2JS;
 import com.icourt.alpha.alphajssdk.annotation.InvokeJSInterface;
 import com.icourt.alpha.alphajssdk.annotation.Param;
 import com.icourt.alpha.alphajssdk.annotation.ParamCallback;

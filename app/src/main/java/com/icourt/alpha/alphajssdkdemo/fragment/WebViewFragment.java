@@ -1,4 +1,4 @@
-package com.icourt.alpha.alphajssdk.fragment;
+package com.icourt.alpha.alphajssdkdemo.fragment;
 
 import android.support.v4.app.Fragment;
 import android.graphics.Bitmap;
@@ -10,11 +10,13 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.webkit.*;
 import android.widget.TextView;
-import com.icourt.alpha.alphajssdk.*;
+import com.icourt.alpha.alphajssdk.AlphaJavaJsBridge;
+import com.icourt.alpha.alphajssdk.IJavaCallback2JS;
 import com.icourt.alpha.alphajssdk.annotation.JavaCallback4JS;
 import com.icourt.alpha.alphajssdk.annotation.Param;
 import com.icourt.alpha.alphajssdk.annotation.ParamResponseStatus;
 import com.icourt.alpha.alphajssdk.interfaces.WebviewLoadUrlListener;
+import com.icourt.alpha.alphajssdkdemo.*;
 
 public class WebViewFragment extends Fragment implements WebviewLoadUrlListener {
 

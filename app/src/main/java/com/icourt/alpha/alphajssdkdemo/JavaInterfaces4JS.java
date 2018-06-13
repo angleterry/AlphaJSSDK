@@ -1,10 +1,10 @@
-package com.icourt.alpha.alphajssdk;
+package com.icourt.alpha.alphajssdkdemo;
 
 import com.icourt.alpha.alphajssdk.annotation.JavaInterface4JS;
 import com.icourt.alpha.alphajssdk.annotation.Param;
 import com.icourt.alpha.alphajssdk.annotation.ParamCallback;
 import com.icourt.alpha.alphajssdk.annotation.ParamResponseStatus;
-import com.icourt.alpha.alphajssdk.fragment.WebViewFragment;
+import com.icourt.alpha.alphajssdkdemo.fragment.WebViewFragment;
 
 /**
  * java提供给js的接口

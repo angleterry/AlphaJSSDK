@@ -1,10 +1,10 @@
-package com.icourt.alpha.alphajssdk;
+package com.icourt.alpha.alphajssdkdemo;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import com.icourt.alpha.alphajssdk.fragment.WebViewFragment;
+import com.icourt.alpha.alphajssdkdemo.fragment.WebViewFragment;
 
 /**
  * @author angleterry  email:shibukun@icourt.cc

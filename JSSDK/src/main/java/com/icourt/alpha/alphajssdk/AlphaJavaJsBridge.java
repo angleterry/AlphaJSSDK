@@ -18,6 +18,7 @@ import org.json.JSONObject;
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
+import java.net.URLEncoder;
 import java.util.ArrayList;
 import java.util.HashMap;
 
@@ -37,7 +38,6 @@ public class AlphaJavaJsBridge {
      * 所以为回调函数提供一个唯一的id，
      */
     private static int sUniqueCallbackId = 1;
-
 
     /**
      * 保证发送给js数据时在ui线程中执行
@@ -450,13 +450,12 @@ public class AlphaJavaJsBridge {
         if (TextUtils.isEmpty(data)) {
             return;
         }
-
         data = String.format(jSMethod4SendData2JS, data);
 
         final String finalData = data;
         if (isDebug) {
 
-            Log.i(TAG, "发送给js的数据:" + data);
+            Log.i(TAG, "发送给js的数据:     '''" + data);
         }
         handler.post(new Runnable() {
             @Override
@@ -475,7 +474,7 @@ public class AlphaJavaJsBridge {
      * @param json
      * @return true 代表可以解析当前数据，否则不可以解析
      */
-    boolean parseJsonFromJs(String json) {
+    public boolean parseJsonFromJs(String json) {
         boolean result = false;
         if (!TextUtils.isEmpty(json)) {
             if (json.startsWith(protocol)) {

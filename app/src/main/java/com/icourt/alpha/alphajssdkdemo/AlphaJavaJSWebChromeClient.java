@@ -1,7 +1,8 @@
-package com.icourt.alpha.alphajssdk;
+package com.icourt.alpha.alphajssdkdemo;
 
 import android.content.Context;
 import android.webkit.*;
+import com.icourt.alpha.alphajssdk.AlphaJavaJsBridge;
 
 import java.io.BufferedReader;
 import java.io.IOException;

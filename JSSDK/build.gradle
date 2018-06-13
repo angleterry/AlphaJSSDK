@@ -1,9 +1,8 @@
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 23
     defaultConfig {
-        applicationId "com.icourt.alpha.alphajssdk"
         minSdkVersion 19
         targetSdkVersion 23
         versionCode 1
@@ -18,8 +17,5 @@ android {
 }
 
 dependencies {
-    implementation fileTree(include: ['*.jar'], dir: 'libs')
-    implementation 'com.android.support:appcompat-v7:23.4.0'
-    implementation 'com.android.support:design:23.4.0'
-    api project(path: ':JSSDK')
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
 }

@@ -1,7 +1,6 @@
 package com.icourt.alpha.alphajssdk.model;
 
 import com.icourt.alpha.alphajssdk.IJavaCallback2JS;
-
 import org.json.JSONException;
 import org.json.JSONObject;
 

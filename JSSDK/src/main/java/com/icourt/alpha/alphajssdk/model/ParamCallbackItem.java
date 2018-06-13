@@ -1,7 +1,7 @@
 package com.icourt.alpha.alphajssdk.model;
 
-import com.icourt.alpha.alphajssdk.exception.SimpleJSBridgeException;
 import com.icourt.alpha.alphajssdk.IJavaCallback2JS;
+import com.icourt.alpha.alphajssdk.exception.SimpleJSBridgeException;
 import com.icourt.alpha.alphajssdk.AlphaJavaJsBridge;
 
 import java.lang.reflect.InvocationHandler;
